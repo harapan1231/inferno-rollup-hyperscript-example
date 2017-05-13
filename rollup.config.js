@@ -2,7 +2,8 @@ import replace from "rollup-plugin-replace";
 import nodeResolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import buble from 'rollup-plugin-buble';
-import uglify from 'rollup-plugin-uglify';
+// uncomment this to uglify source code
+// import uglify from 'rollup-plugin-uglify';
 
 export default {
   moduleName: "Chalk Words",
@@ -22,7 +23,8 @@ export default {
       // jsx: 'createElement',
       objectAssign: 'Object.assign'
     }),
-    uglify(),
+    // uncomment this to uglify source code
+    // uglify(),
     commonjs()
   ]
 }
