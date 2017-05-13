@@ -1,0 +1,1 @@
+# inferno-rollup-hyperscript-example
