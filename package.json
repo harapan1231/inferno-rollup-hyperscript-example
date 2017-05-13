@@ -1,22 +1,21 @@
 {
-  "name": "chalk-words",
+  "name": "inferno-rollup-hyperscript-example",
   "version": "1.0.0",
-  "description": "Password helper",
-  "main": "index.js",
+  "description": "example",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harapan1231/chalk-words.git"
+    "url": "git+https://github.com/harapan1231/inferno-rollup-hyperscript-example.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harapan1231/chalk-words/issues"
+    "url": "https://github.com/harapan1231/inferno-rollup-hyperscript-example/issues"
   },
-  "homepage": "https://github.com/harapan1231/chalk-words#readme",
+  "homepage": "https://github.com/harapan1231/inferno-rollup-hyperscript-example#readme",
   "dependencies": {
     "inferno": "^3.1.2",
     "inferno-component": "^3.1.2",
