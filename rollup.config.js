@@ -18,13 +18,13 @@ export default {
       jsnext: true,
       browser: true
     }),
+    commonjs(),
     buble({
       // uncomment this to use `import createElement from 'inferno-create-element';` with jsx
       // jsx: 'createElement',
       objectAssign: 'Object.assign'
-    }),
+    })
     // uncomment this to uglify source code
-    // uglify(),
-    commonjs()
+    // uglify()
   ]
 }
