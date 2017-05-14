@@ -1,6 +1,6 @@
 module.exports = {
     // Input file(s)
-    entry: '.app.jsx',
+    entry: './app.jsx',
     // Output dir and file(s)
     output: {
         path: __dirname + './',
