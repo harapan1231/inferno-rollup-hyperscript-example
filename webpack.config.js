@@ -3,7 +3,7 @@ module.exports = {
     entry: './app.jsx',
     // Output dir and file(s)
     output: {
-        path: __dirname + './',
+        path: __dirname + '/',
         filename: 'app.js'
     },
     // Uncomment to output source map
