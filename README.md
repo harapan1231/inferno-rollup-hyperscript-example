@@ -1,0 +1,1 @@
+# inferno-webpack-babel-jsx--example
