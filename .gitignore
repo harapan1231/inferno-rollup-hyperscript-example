@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # node
 /node_modules/
 # rollup
 /dest/*
 !/dest/index.html
+=======
+/node_modules/
+/app.js
+>>>>>>> inferno-webpack-babel-jsx-example/main
